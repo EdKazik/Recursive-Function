@@ -1,5 +1,8 @@
-function pow(num, degree) {
-    let expNumber = num ** degree;
-    console.log(expNumber);
+function getPow(num, degree) {
+     if (num >= 1 && degree >= 1) {
+    		return num ** degree;
+  } 
+  return num;
 }
-pow(5, 5)
+
+console.log(getPow(2, 3))
