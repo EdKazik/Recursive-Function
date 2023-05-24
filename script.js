@@ -4,5 +4,4 @@ function getPow(num, degree) {
   } 
   return num;
 }
-
 console.log(getPow(2, 3))
